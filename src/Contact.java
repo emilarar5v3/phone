@@ -13,27 +13,21 @@ class Contact {
         this.cod = cod;
         this.number = number;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public int getCod() {
         return cod;
     }
-
     public void setCod(int cod) {
         this.cod = cod;
     }
-
     public int getNumber() {
         return number;
     }
-
     public void setNumber(int number) {
         this.number = number;
     }
@@ -78,7 +72,6 @@ class Contact {
       }
       System.out.println("ведите номер сох");
       number = scanner.nextInt();
-
   }
   void  name(){
       System.out.println("ведите имя контакт ");
@@ -86,11 +79,6 @@ class Contact {
       name = sc.nextLine();
       System.out.println( " ваш контакт успешно сохранен "+ name + "  " + number);
   }
-
-
-
-
-
     @Override
     public String toString() {
         return "Contact{" +
